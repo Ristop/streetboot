@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <head th:replace="fragments/head :: head"></head>
+    <script th:src="@{/js/controller/vehicleController.js}"></script>
+    <script th:src="@{/js/services/vehicleService.js}"></script>
+</head>
+<body ng-cloak="" ng-app="streetbootModule" ng-controller="VehicleController">
+
+<header th:include="fragments/header :: header"></header>
+
+<div class="container-fluid" id="alert-box" ng-if="nodata">
+    No info for {{nodataVeh.description}}
+</div>
+
+<div class="container" id="vehicles-data-container">
+    <div id="chart-container" class="col-lg-8 col-md-8 col-sm-12">
+
+    </div>
+    <div id="vehicles">
+        <ul class="list-group">
+            <li class="list-group-item" ng-repeat="vehicle in vehicles | searchFor:searchString" ng-click="getVehicleEvents(vehicle.Name, vehicle.Description, vehicle.FuelCardNum)">
+                <span>{{ vehicle.Description }}</span>
+                <br/>
+                <span style="font-weight: bold">{{ vehicle.Name }} </span>| <span style="font-style: italic">{{ vehicle.FuelCardNum }}</span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+    <div id="map">
+
+    </div>
+</div>
+
+
+</body>
+</html>
