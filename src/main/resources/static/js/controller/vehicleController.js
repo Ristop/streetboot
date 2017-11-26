@@ -5,7 +5,7 @@ streetbootApp.controller('VehicleController', ['$scope', '$http', 'VehicleServic
   angular.element(document).ready(function () {
     showVehicles();
     $scope.nodata = false;
-    $scope.mapAvailable = true;
+    $scope.mapNotAvailable = true;
     $scope.selected = {
       name: "",
       description: "",
@@ -19,13 +19,36 @@ streetbootApp.controller('VehicleController', ['$scope', '$http', 'VehicleServic
     });
   }
 
+  $scope.updateMapOnly = function (name) {
+    if ($scope.ctrl !== undefined && $scope.ctrl.startDatepicker !== undefined && $scope.ctrl.endDatepicker !== undefined) {
+      VehicleService.getVehiclesLocationByStartAndEndDate(name, new Date($scope.ctrl.startDatepicker).valueOf(), new Date($scope.ctrl.endDatepicker).valueOf()).then(function (data) {
+        console.log("yes");
+        if (data.length > 0) {
+          $scope.mapNotAvailable = false;
+        } else {
+          $scope.mapNotAvailable = true;
+        }
+        initMap(data);
+      })
+    } else {
+      VehicleService.getVehiclesLocation(name).then(function (data) {
+        if (data.length > 0) {
+          $scope.mapNotAvailable = false;
+        } else {
+          $scope.mapNotAvailable = true;
+        }
+        initMap(data);
+      })
+    }
+  };
+
   $scope.getVehicleGarageEvents = function (name, description, fuelCardNum) {
     $scope.selected = {
       name: name,
       description: description,
       fuelCardNum: fuelCardNum
     };
-    $scope.mapNotAvailable = false;
+    $scope.mapNotAvailable = true;
 
     VehicleService.getVehiclesGarageEvents(name).then(function (data) {
           if (data.length > 0) {
@@ -78,27 +101,25 @@ streetbootApp.controller('VehicleController', ['$scope', '$http', 'VehicleServic
     if ($scope.ctrl !== undefined && $scope.ctrl.startDatepicker !== undefined && $scope.ctrl.endDatepicker !== undefined) {
       VehicleService.getVehiclesLocationByStartAndEndDate(name, new Date($scope.ctrl.startDatepicker).valueOf(), new Date($scope.ctrl.endDatepicker).valueOf()).then(function (data) {
         if (data.length > 0) {
-          $scope.mapNotAvailable = true;
-        } else {
           $scope.mapNotAvailable = false;
+        } else {
+          $scope.mapNotAvailable = true;
         }
         initMap(data);
       })
     } else {
       VehicleService.getVehiclesLocation(name).then(function (data) {
         if (data.length > 0) {
-          $scope.mapNotAvailable = true;
-        } else {
           $scope.mapNotAvailable = false;
+        } else {
+          $scope.mapNotAvailable = true;
         }
         initMap(data);
       })
     }
   };
 
-}
-])
-;
+}]);
 
 
 function initMap(cordinateData) {

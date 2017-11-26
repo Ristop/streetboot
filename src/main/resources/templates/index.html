@@ -39,7 +39,7 @@
     <span><h4 style="display: inline">{{selected.description}} </h4><span>{{selected.name}}</span></span>
 </div>
 
-<div class="container" id="time-picker" ng-if="mapNotAvailable">
+<div class="container" id="time-picker" ng-hide="mapNotAvailable">
     <div class="col-lg-3">
         <h3 style="text-align: left;color:#FF5722;padding-top: 4px;margin: 0">Map data from</h3>
     </div>
@@ -70,7 +70,7 @@
         </div>
     </div>
     <div class="col-lg-1">
-        <button style="background-color: #FF5722; color: white" type="button" class="btn">Update</button>
+        <button style="background-color: #FF5722; color: white" type="button" class="btn" ng-click="updateMapOnly(selected.name)">Update</button>
     </div>
 
 </div>
