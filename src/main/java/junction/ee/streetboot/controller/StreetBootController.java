@@ -10,4 +10,7 @@ public class StreetBootController {
   public String index() {
     return "index";
   }
+
+  @GetMapping("/street")
+  public String street() { return "street"; }
 }

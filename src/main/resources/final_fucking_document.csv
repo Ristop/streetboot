@@ -1,0 +1,604 @@
+﻿Finland,Helsinki city,Palosuontie,07530,60.24506049999999, 24.9397343
+Finland,Helsinki city,Alankotie,02730,60.27012910000001, 25.0355564
+Finland,Helsinki city,Ajomiehentie,02940,60.23867219999999, 24.8491417
+Finland,Helsinki city,Harbonkatu,00980,60.19909069999999, 25.1253982
+Finland,Helsinki city,Meri-Rastilan tie,00980,60.20092440000001, 25.1242305
+Finland,Helsinki city,Halkaisijantie,00980,60.2028479, 25.1273865
+Finland,Helsinki city,Vuotie,00980,60.2069625, 25.1417436
+Finland,Helsinki city,Harustie,00980,60.2034163, 25.1248603
+Finland,Helsinki city,Suutarilantie,00740,60.2764524, 25.003123
+Finland,Helsinki city,Melkonkatu,00210,60.1506801, 24.8828643
+Finland,Helsinki city,Ramsinniementie,00980,60.1939566, 25.1042006
+Finland,Helsinki city,Porslahdentie,00960,60.2196748, 25.1459181
+Finland,Helsinki city,Pilvilinnankatu,00960,60.2169605, 25.1498035
+Finland,Helsinki city,Lintu Sininen,00960,60.21890620000001, 25.1524267
+Finland,Helsinki city,Refanutinpolku,00960,60.2169566, 25.1497807
+Finland,Helsinki city,Iiluodonpiha,00990,60.2038317, 25.1462117
+Finland,Helsinki city,Leikosaarentie,00990,60.20464140000001, 25.1518803
+Finland,Helsinki city,Juhannusruusunkuja,00990,60.2014998, 25.1491219
+Finland,Helsinki city,Aurinkoranta,00990,60.2014419, 25.153952
+Finland,Helsinki city,Aurinkolahden puistotie,00990,60.2027692, 25.1493174
+Finland,Helsinki city,Solvikinkatu,00990,60.20251200000001, 25.1550599
+Finland,Helsinki city,Gustav Pauligin katu,00990,60.2049152, 25.1523633
+Finland,Helsinki city,Aurinkotuulenkatu,00990,60.20626770000001, 25.1579142
+Finland,Helsinki city,Pomeranssikuja,00990,60.2057741, 25.1547642
+Finland,Helsinki city,Svartvikinkuja,00980,60.2043007, 25.1581057
+Finland,Helsinki city,Urheilukalastajankuja,00990,60.20333369999999, 25.1601415
+Finland,Helsinki city,Lohikallionranta,00990,60.20507240000001, 25.1596809
+Finland,Helsinki city,Myrskykuja,00990,60.2045435, 25.1592185
+Finland,Helsinki city,Sumukuja,00990,60.2054473, 25.1585462
+Finland,Helsinki city,Kauniinilmankuja,00990,60.208248, 25.1592214
+Finland,Helsinki city,Ruusuniementie,00980,60.21078290000001, 25.1786901
+Finland,Helsinki city,Ruusuniemenaukio,00980,60.21078290000001, 25.1786901
+Finland,Helsinki city,Karavaanikatu,00980,60.20730279999999, 25.1213157
+Finland,Helsinki city,Aamuruskontie,00740,60.2844618, 25.0242293
+Finland,Helsinki city,Suuntimotie,00750,60.2766809, 25.0394599
+Finland,Helsinki city,Kartanonkaari,00410,60.2423903, 24.8629412
+Finland,Helsinki city,Pirkkolantie,00630,60.2300657, 24.9171196
+Finland,Helsinki city,Kauppalantie,00320,60.212504, 24.8983635
+Finland,Helsinki city,Tunnelitie,00320,60.2174701, 24.8996174
+Finland,Helsinki city,Viilarintie,00880,60.2112974, 25.0593794
+Finland,Helsinki city,Mekaanikonkatu,00880,60.20328139999999, 25.0463795
+Finland,Helsinki city,Siilitie,00800,60.2094308, 25.0377974
+Finland,Helsinki city,Tulisuontie,00810,60.20199049999999, 25.0686369
+Finland,Helsinki city,Suolakivenkatu,00810,60.1890813, 25.0272954
+Finland,Helsinki city,Virvakuja,00930,60.2075229, 25.0726563
+Finland,Helsinki city,Agnetankuja,00590,60.18704649999999, 25.0365329
+Finland,Helsinki city,Simppukarinkatu,00810,60.18747939999999, 25.0290203
+Finland,Helsinki city,Kivikonlaita,00940,60.2410283, 25.0516199
+Finland,Helsinki city,Konalantie,00370,60.234426, 24.8465239
+Finland,Helsinki city,Koskelantie,00560,60.216339, 24.9751977
+Finland,Helsinki city,Vanhankaupungintie,00560,60.21493859999999, 24.9786336
+Finland,Helsinki city,Hitsaajankatu,00810,60.19218739999999, 25.0266054
+Finland,Helsinki city,Hopeasalmenranta,00570,60.1850478, 24.995463
+Finland,Helsinki city,Hopeasalmentie,00570,60.1828132, 25.0042915
+Finland,Helsinki city,Bomansonintie,00570,60.1809008, 25.0146132
+Finland,Helsinki city,Marsalkantie,00570,60.18460399999999, 24.9996467
+Finland,Helsinki city,Lars Sonckin tie,00570,60.18224919999999, 25.0139938
+Finland,Helsinki city,Ratapihantie,00520,60.20098759999999, 24.9337943
+Finland,Helsinki city,Veturitie,00240,60.20379359999999, 24.9263512
+Finland,Helsinki city,Hermannin rantatie,00580,60.19353450000001, 24.9774083
+Finland,Helsinki city,Kalervonkatu,00610,60.2105521, 24.9469085
+Finland,Helsinki city,Allastie,00560,60.2095883, 24.9613539
+Finland,Helsinki city,Intiankatu,00560,60.20832960000001, 24.966528
+Finland,Helsinki city,Pellervontie,00610,60.214042, 24.9503907
+Finland,Helsinki city,Repossaarentie,00840,60.17053540000001, 25.0628393
+Finland,Helsinki city,Jollaksentie,00850,60.16425719999999, 25.0717753
+Finland,Helsinki city,Koirasaarentie,00590,60.1714727, 25.03145
+Finland,Helsinki city,Teerikukontie,00700,60.2543877, 25.0237879
+Finland,Helsinki city,Laajasalontie,00870,60.1627202, 25.0470967
+Finland,Helsinki city,Takilatie,00850,60.16298219999999, 25.0630526
+Finland,Helsinki city,Riimusauvantie,00740,60.27511430000001, 24.9911293
+Finland,Helsinki city,Uranuksentie,00750,60.2802624, 25.0215236
+Finland,Helsinki city,Tapulikaupungintie,00750,60.27794449999999, 25.0255185
+Finland,Helsinki city,Talin puistotie,00350,60.21551609999999, 24.8644382
+Finland,Helsinki city,Kaupintie,00440,60.23076080000001, 24.8818881
+Finland,Helsinki city,Laulurastaantie,00700,60.2589156, 25.001428
+Finland,Helsinki city,Vanha Porvoontie,00760,60.2698838, 25.073111
+Finland,Helsinki city,Maamiehentie,00760,60.26564329999999, 25.061175
+Finland,Helsinki city,Malminkaari,00730,60.2616016, 25.0398577
+Finland,Helsinki city,Heikinlaaksontie,00760,60.2697782, 25.0675277
+Finland,Helsinki city,Linnanrakentajantie,00810,60.19057609999999, 25.0397753
+Finland,Helsinki city,Olkilyhteentie,00740,60.27139460000001, 24.9973916
+Finland,Helsinki city,Simpukkakuja,00780,60.2523209, 24.9808849
+Finland,Helsinki city,Yrttimaantie,00700,60.2684639, 25.0028742
+Finland,Helsinki city,Puistolan raitti,00760,60.2706188, 25.0535857
+Finland,Helsinki city,Vanha Tapanilantie,00700,60.2615187, 25.0047816
+Finland,Helsinki city,Puistolantanhua,00750,60.2745502, 25.0400504
+Finland,Helsinki city,Raidepolku,00750,60.27287579999999, 25.037002
+Finland,Helsinki city,Pajalahdentie,00200,60.1592745, 24.8867758
+Finland,Helsinki city,Lauttasaarentie,00200,60.161127, 24.8742289
+Finland,Helsinki city,Tiirasaarentie,00200,60.1551084, 24.863964
+Finland,Helsinki city,Isokaari,00200,60.15811069999999, 24.8618108
+Finland,Helsinki city,Vattuniemen puistotie,00210,60.1514965, 24.8890045
+Finland,Helsinki city,Otavantie,00200,60.1583467, 24.8794743
+Finland,Helsinki city,Tallbergin puistotie,00200,60.15765649999999, 24.8802642
+Finland,Helsinki city,Teemuntie,00760,60.27419459999999, 25.0454458
+Finland,Helsinki city,Veljestentie,00730,60.26584250000001, 25.0283772
+Finland,Helsinki city,Liiketie,00730,60.2660631, 25.0263056
+Finland,Helsinki city,Hernesaarenranta,00150,60.15064510000001, 24.9256354
+Finland,Helsinki city,Aleksis Kiven katu,00510,60.1919412, 24.9463736
+Finland,Helsinki city,Pohjoinen Rautatiekatu,00100,60.1699645, 24.9281553
+Finland,Helsinki city,Lapinlahdenkatu,00100,60.1669351, 24.9272859
+Finland,Helsinki city,Humikkalantie,00920,60.2281005, 25.0866553
+Finland,Helsinki city,Ulvilantie,00350,60.209141, 24.8746429
+Finland,Helsinki city,Raumantie,00350,60.20586969999999, 24.8744634
+Finland,Helsinki city,Huopalahdentie,00350,60.2079623, 24.8795037
+Finland,Helsinki city,Muusantori,00350,60.2070398, 24.8561178
+Finland,Helsinki city,Lehtisaarentie,00340,60.1776393, 24.853286
+Finland,Helsinki city,Laajalahden valkama,00330,60.19472729999999, 24.8705149
+Finland,Helsinki city,Tietokuja,00330,60.2022513, 24.8797648
+Finland,Helsinki city,Munkkiniemenranta,00330,60.1979094, 24.8666016
+Finland,Helsinki city,Kadetintie,00330,60.1955125, 24.8777576
+Finland,Helsinki city,Katajaharjuntie,00200,60.1665672, 24.8578242
+Finland,Helsinki city,Vattuniemenkatu,00210,60.1523687, 24.8853818
+Finland,Helsinki city,Nahkahousuntie,00210,60.15060579999999, 24.882042
+Finland,Helsinki city,Malminkartanonkuja,00390,60.24346440000001, 24.8493607
+Finland,Helsinki city,Malminkartanontie,00390,60.24458740000001, 24.8473963
+Finland,Helsinki city,Riukutie,00390,60.24372429999999, 24.840015
+Finland,Helsinki city,Saukonpaadenranta,00180,60.1589639, 24.9070211
+Finland,Helsinki city,Lontoonkatu,00560,60.2034105, 24.9736013
+Finland,Helsinki city,Pakilantie,00670,60.250387, 24.9198517
+Finland,Helsinki city,Luutnantinpolku,00410,60.245335, 24.867198
+Finland,Helsinki city,Nauvontie,00280,60.20587159999999, 24.9007942
+Finland,Helsinki city,Rakennusmestarintie,00680,60.2406914, 24.958905
+Finland,Helsinki city,Pasuunapolku,00420,60.2408916, 24.8723047
+Finland,Helsinki city,Soittajanpolku,00420,60.2428299, 24.8746641
+Finland,Helsinki city,Soittajankuja,00420,60.2417226, 24.8750229
+Finland,Helsinki city,Soittajantie,00420,60.2414917, 24.8756263
+Finland,Helsinki city,Posetiivarinkuja,00420,60.24420790000001, 24.8750848
+Finland,Helsinki city,Abraham Wetterin tie,00880,60.1940386, 25.0516208
+Finland,Helsinki city,Muurikuja,00580,60.19596499999999, 24.9715194
+Finland,Helsinki city,Ilmolanraitti,00790,60.2285013, 25.0345852
+Finland,Helsinki city,Henrik Forsiuksen tie,00750,60.27737140000001, 25.020354
+Finland,Helsinki city,Hietasaarenkuja,00220,60.1542524, 24.9192387
+Finland,Helsinki city,Harjannetie,00710,60.2279089, 24.9897651
+Finland,Helsinki city,Kantelettarentie,00420,60.2382033, 24.8878529
+Finland,Helsinki city,Halsuantie,00420,60.2371867, 24.887033
+Finland,Helsinki city,Vetelintie,00420,60.2373179, 24.8852374
+Finland,Helsinki city,Pelimannintie,00420,60.23699019999999, 24.878883
+Finland,Helsinki city,Trumpettitie,00420,60.2390893, 24.8701125
+Finland,Helsinki city,Klaneettitie,00420,60.238441, 24.8759619
+Finland,Helsinki city,Viulutie,00420,60.23720290000001, 24.880911
+Finland,Helsinki city,Sitratori,00420,60.23931630000001, 24.8759181
+Finland,Helsinki city,Sitratie,00420,60.2398696, 24.8750661
+Finland,Helsinki city,Trumpettikuja,00420,60.23866040000001, 24.8686806
+Finland,Helsinki city,Pehtoorintie,00410,60.2423826, 24.8571064
+Finland,Helsinki city,Kartanonvoudintie,00410,60.2427879, 24.8614695
+Finland,Helsinki city,Renginkuja,00410,60.2432522, 24.8611587
+Finland,Helsinki city,Arentitie,00410,60.2454645, 24.8540812
+Finland,Helsinki city,Vuokraajanpolku,00410,60.2456037, 24.8572312
+Finland,Helsinki city,Puustellinaukio,00410,60.2466052, 24.8606642
+Finland,Helsinki city,Neulastie,00410,60.25136939999999, 24.8503421
+Finland,Helsinki city,Naapuripellontie,00410,60.2501744, 24.8491168
+Finland,Helsinki city,Kaarnatie,00410,60.24982840000001, 24.8548166
+Finland,Helsinki city,Parivaljakontie,00410,60.24458569999999, 24.8654379
+Finland,Helsinki city,Vellikellontie,00410,60.2451471, 24.8630026
+Finland,Helsinki city,Luutnantintie,00410,60.24796929999999, 24.8643135
+Finland,Helsinki city,Malminkartanonaukio,00410,60.24760059999999, 24.8621639
+Finland,Helsinki city,Puustellinrinne,00410,60.2475102, 24.8610803
+Finland,Helsinki city,Toiskantie,00410,60.2473732, 24.8517468
+Finland,Helsinki city,Hietalahdenranta,00150,60.16014120000001, 24.9309502
+Finland,Helsinki city,Malmin kauppatie,00730,60.2586835, 25.0208918
+Finland,Helsinki city,Vartioharjuntie,00950,60.21996339999999, 25.113789
+Finland,Helsinki city,Berliininkatu,00560,60.2046801, 24.9731755
+Finland,Helsinki city,Lampputie,00750,60.281558, 25.0158357
+Finland,Helsinki city,Kallioharjuntie,00930,60.20559549999999, 25.0930382
+Finland,Helsinki city,Klaukkalantie,00680,60.2475931, 24.9635554
+Finland,Helsinki city,Kustaa Vaasan tie,00560,60.2096639, 24.9688033
+Finland,Helsinki city,Saarnaajantie,00660,60.2372793, 24.9409424
+Finland,Helsinki city,Puistolantie,00760,60.2672214, 25.0586409
+Finland,Helsinki city,Tapaninvainiontie,00780,60.2578246, 24.9869931
+Finland,Helsinki city,Asema-Aukio,00100,60.1704707, 24.9397856
+Finland,Helsinki city,Postintaival,00230,60.21079149999999, 24.916138
+Finland,Helsinki city,Mechelininkatu,00100,60.1717078, 24.920177
+Finland,Helsinki city,Kivikonkaari,00940,60.2358662, 25.0662376
+Finland,Helsinki city,Alakiventie,00920,60.2216728, 25.0785204
+Finland,Helsinki city,Hakaniemenranta,00530,60.1782741, 24.9567348
+Finland,Helsinki city,Apteekkarinkatu,00790,60.2333101, 25.0372709
+Finland,Helsinki city,Agronominkatu,00790,60.2333302, 25.0351092
+Finland,Helsinki city,Fallpakankuja,00970,60.2288512, 25.1308396
+Finland,Helsinki city,Untamalantie,00970,60.2333417, 25.1063471
+Finland,Helsinki city,Myrttitie,00720,60.2455154, 24.9955003
+Finland,Helsinki city,Resedatie,00720,60.2465767, 24.9988402
+Finland,Helsinki city,Eskolantie,00720,60.2450879, 24.9932063
+Finland,Helsinki city,Jokipellontie,00720,60.245355, 24.9836683
+Finland,Helsinki city,Unikkotie,00720,60.2458503, 24.9912947
+Finland,Helsinki city,Savelantie,00720,60.23925509999999, 24.9926675
+Finland,Helsinki city,Liusketie,00710,60.23629599999999, 25.0172252
+Finland,Helsinki city,Latokartanontie,00710,60.24649420000001, 25.011859
+Finland,Helsinki city,Karviaisrinne,00700,60.24543439999999, 25.0063141
+Finland,Helsinki city,Malmin asematie,00700,60.24785350000001, 25.008771
+Finland,Helsinki city,Pekanraitti,00700,60.2503816, 25.013562
+Finland,Helsinki city,Vilppulantie,00700,60.24959690000001, 25.0174623
+Finland,Helsinki city,Ala-Malmin tori,00700,60.25074249999999, 25.0131171
+Finland,Helsinki city,Soidintie,00700,60.25175239999999, 25.0173626
+Finland,Helsinki city,Teerisuontie,00700,60.2523728, 25.0224234
+Finland,Helsinki city,Ormuspellontie,00700,60.25483699999999, 25.026736
+Finland,Helsinki city,Markkinatie,00700,60.25092679999999, 25.0030462
+Finland,Helsinki city,Malmin raitti,00700,60.254822, 25.0098017
+Finland,Helsinki city,Kaupparaitti,00700,60.252979, 25.0113976
+Finland,Helsinki city,Viljatie,00700,60.25386029999999, 25.0113729
+Finland,Helsinki city,Kotinummentie,00700,60.2569277, 25.0134637
+Finland,Helsinki city,Vainiotie,00700,60.2579101, 25.0086106
+Finland,Helsinki city,Syystie,00780,60.2546303, 24.9948391
+Finland,Helsinki city,Takaniitynkuja,00700,60.2558976, 24.9979505
+Finland,Helsinki city,Vasaratie,00700,60.2555834, 25.0336637
+Finland,Helsinki city,Talttatie,00700,60.24207789999999, 25.0230325
+Finland,Helsinki city,Hellekuja,00990,60.2069954, 25.1597137
+Finland,Helsinki city,Tenholantie,00280,60.20262719999999, 24.9055329
+Finland,Helsinki city,Kivisaarentie,00960,60.2202438, 25.1370917
+Finland,Helsinki city,Mustalahdentie,00960,60.22193360000001, 25.1377326
+Finland,Helsinki city,Toukolankatu,00560,60.2046801, 24.9731755
+Finland,Helsinki city,Tenhonkuja,00580,60.19113149999999, 24.9684982
+Finland,Helsinki city,Simonkatu,00100,60.16927390000001, 24.9366774
+Finland,Helsinki city,Narinkka,00100,60.1699673, 24.9346057
+Finland,Helsinki city,Ilotulitustie,00930,60.2046683, 25.0738695
+Finland,Helsinki city,Virvatulentie,00930,60.20719649999999, 25.0742668
+Finland,Helsinki city,Orpaanporras,00920,60.22381419999999, 25.0706118
+Finland,Helsinki city,Viikintie,00880,60.20800269999999, 25.0506392
+Finland,Helsinki city,Kutomotie,00380,60.21515520000001, 24.8709655
+Finland,Helsinki city,Valimotie,00380,60.21823250000001, 24.8789588
+Finland,Helsinki city,Hiomotie,00380,60.21989360000001, 24.8737452
+Finland,Helsinki city,Taimistontie,00380,60.2173702, 24.8658907
+Finland,Helsinki city,Muonamiehentie,00390,60.23244399999999, 24.8633557
+Finland,Helsinki city,Naapurintie,00940,60.2325429, 25.088394
+Finland,Helsinki city,Paciuksenkatu,00290,60.18859339999999, 24.9033441
+Finland,Helsinki city,Brysselinkatu,00560,60.203679, 24.9710682
+Finland,Helsinki city,Kontulantie,00940,60.23383680000001, 25.081189
+Finland,Helsinki city,Keinulaudantie,00940,60.2347522, 25.0794231
+Finland,Helsinki city,Kontulankaari,00940,60.2412299, 25.0747675
+Finland,Helsinki city,Ostoskuja,00940,60.2381716, 25.0841852
+Finland,Helsinki city,Koskenhaantie,00940,60.24124560000001, 25.0922654
+Finland,Helsinki city,Katajanokanlaituri,00160,60.16598010000001, 24.9628441
+Finland,Helsinki city,Lainlukijantie,00690,60.2611854, 24.9547903
+Finland,Helsinki city,Varustuksentie,00940,60.2388579, 25.0648034
+Finland,Helsinki city,Linnoituksentie,00940,60.2413032, 25.0710316
+Finland,Helsinki city,Nallitie,00940,60.2341521, 25.0615609
+Finland,Helsinki city,Panosaukio,00940,60.23256, 25.06251
+Finland,Helsinki city,Kivijatatie,00940,60.2327337, 25.0575437
+Finland,Helsinki city,Paukkulantie,00940,60.23269310000001, 25.0553644
+Finland,Helsinki city,Kurkiaispolku,00940,60.2289026, 25.0707562
+Finland,Helsinki city,Karpalopolku,00940,60.2305179, 25.0737067
+Finland,Helsinki city,Kurkisuontie,00940,60.2334693, 25.0717353
+Finland,Helsinki city,Kurkiauranpolku,00940,60.2321878, 25.0716118
+Finland,Helsinki city,Kuovipolku,00940,60.2327834, 25.0697099
+Finland,Helsinki city,Talonpojantie,00790,60.22871379999999, 25.0252596
+Finland,Helsinki city,Eliel Saarisen tie,00320,60.2181416, 24.8918224
+Finland,Helsinki city,Punakiventie,00980,60.21188489999999, 25.1432463
+Finland,Helsinki city,Topeliuksenkatu,00290,60.1894233, 24.911719
+Finland,Helsinki city,Lirokuja,00940,60.2336097, 25.079802
+Finland,Helsinki city,Ruoholahdenranta,00180,60.1624296, 24.923489
+Finland,Helsinki city,Ulapparaitti,00980,60.2087982, 25.1383894
+Finland,Helsinki city,Valkopaadentie,00980,60.20810449999999, 25.1435977
+Finland,Helsinki city,Korvatunturinpolku,00970,60.2380046, 25.1180646
+Finland,Helsinki city,Korvatunturintie,00970,60.2380046, 25.1180646
+Finland,Helsinki city,Ounasvaarankuja,00970,60.2384813, 25.1152545
+Finland,Helsinki city,Laakavuorentie,00970,60.24081700000001, 25.1117009
+Finland,Helsinki city,Laakavuorentori,00970,60.24081700000001, 25.1117009
+Finland,Helsinki city,Ratasmyllyntie,00900,60.2090152, 25.0663093
+Finland,Helsinki city,Tammisalontie,00830,60.1904683, 25.0566935
+Finland,Helsinki city,Vaarnatie,00970,60.23184639999999, 25.1195671
+Finland,Helsinki city,Kauppakartanonkatu,00930,60.2081208, 25.0830845
+Finland,Helsinki city,Roihuvuorentie,00820,60.199299, 25.0585967
+Finland,Helsinki city,Satumaanpolku,00820,60.1959737, 25.0567215
+Finland,Helsinki city,Kreijarinkuja,00820,60.20135409999999, 25.0650666
+Finland,Helsinki city,Laivalahdenportti,00810,60.19203949999999, 25.0348058
+Finland,Helsinki city,Laivalahdenkaari,00810,60.18964320000001, 25.0367076
+Finland,Helsinki city,Kaivolahdenkatu,00810,60.1881346, 25.03914
+Finland,Helsinki city,Kaivolahdenkuja,00810,60.1881346, 25.03914
+Finland,Helsinki city,Kaivolahdenpolku,00810,60.18727579999999, 25.0394082
+Finland,Helsinki city,Killingholmankuja,00810,60.1860696, 25.0353042
+Finland,Helsinki city,Reginankuja,00810,60.18564730000001, 25.0294078
+Finland,Helsinki city,Laivalahden puistotie,00810,60.18942989999999, 25.0327807
+Finland,Helsinki city,Petter Wetterin tie,00810,60.1916467, 25.0322479
+Finland,Helsinki city,Paasivaaranpolku,00810,60.190937, 25.0307532
+Finland,Helsinki city,Suolakivenkuja,00810,60.1890813, 25.0272954
+Finland,Helsinki city,Petter Wetterin polku,00810,60.191928, 25.0337567
+Finland,Helsinki city,Paasivaarankatu,00810,60.19034349999999, 25.0270048
+Finland,Helsinki city,Niittaajankatu,00810,60.1913792, 25.0276845
+Finland,Helsinki city,Laivalahdenkatu,00880,60.19566099999999, 25.0384589
+Finland,Helsinki city,Kahvikatu,00990,60.2048721, 25.1474942
+Finland,Helsinki city,Kukkaniityntie,00900,60.2198337, 25.0914286
+Finland,Helsinki city,Eerikinkatu,00180,60.1647105, 24.9282202
+Finland,Helsinki city,Maaherrantie,00650,60.2311377, 24.9784434
+Finland,Helsinki city,Kissankellontie,00930,60.20496230000001, 25.0867618
+Finland,Helsinki city,Asiakkaankatu,00930,60.208426, 25.080185
+Finland,Helsinki city,Vanhanlinnantie,00900,60.2154817, 25.0912604
+Finland,Helsinki city,Olavinlinnantie,00900,60.2127042, 25.0771207
+Finland,Helsinki city,Turunlinnantie,00900,60.21142259999999, 25.0802156
+Finland,Helsinki city,Kiviportintie,00950,60.2205534, 25.0961035
+Finland,Helsinki city,Harakkamyllyntie,00920,60.224753, 25.0545478
+Finland,Helsinki city,Harakkamyllynaukio,00920,60.224753, 25.0545478
+Finland,Helsinki city,Myllypurontie,00920,60.2257866, 25.0744029
+Finland,Helsinki city,Tuulimyllyntie,00920,60.22591109999999, 25.0674547
+Finland,Helsinki city,Karistimentie,00920,60.2268931, 25.0704078
+Finland,Helsinki city,Kiviparintie,00920,60.224588, 25.0734955
+Finland,Helsinki city,Myllymatkantie,00920,60.2259797, 25.0629224
+Finland,Helsinki city,Neulapadontie,00920,60.2224173, 25.0623708
+Finland,Helsinki city,Laajalahdentie,00330,60.1982126, 24.8758368
+Finland,Helsinki city,Hollantilaisentie,00330,60.19443899999999, 24.8737773
+Finland,Helsinki city,Saunalahdentie,00330,60.1939711, 24.8753212
+Finland,Helsinki city,Munkkiniemen puistotie,00330,60.1977081, 24.8791823
+Finland,Helsinki city,Nuottapolku,00330,60.1987379, 24.8683407
+Finland,Helsinki city,Ramsaynranta,00330,60.19343490000001, 24.8831742
+Finland,Helsinki city,Pakilan rantatie,00680,60.24675509999999, 24.9672114
+Finland,Helsinki city,Visbynkuja,00930,60.2089265, 25.0842334
+Finland,Helsinki city,Visbynkatu,00930,60.21023640000001, 25.0874919
+Finland,Helsinki city,Kauppamyllyntie,00920,60.2154418, 25.0596825
+Finland,Helsinki city,Rusthollarintie,00910,60.2127023, 25.0972931
+Finland,Helsinki city,Rantakartanontie,00910,60.21391920000001, 25.1005782
+Finland,Helsinki city,Haarniskatie,00910,60.2155327, 25.1007965
+Finland,Helsinki city,Meripellontie,00910,60.2082056, 25.0973959
+Finland,Helsinki city,Puotilan metrokatu,00910,60.2151369, 25.095425
+Finland,Helsinki city,Venemestarintie,00980,60.2072519, 25.1267467
+Finland,Helsinki city,Kurrakuja,00730,60.2665571, 25.0193148
+Finland,Helsinki city,Sidekuja,00730,60.26789909999999, 25.0074471
+Finland,Helsinki city,Patterikuja,00940,60.2480741, 25.0777581
+Finland,Helsinki city,Laakavuorenkuja,00970,60.2402664, 25.1104789
+Finland,Helsinki city,Rekipellontie,00940,60.23879650000001, 25.0951422
+Finland,Helsinki city,Luistarinkuja,00940,60.2383646, 25.0952223
+Finland,Helsinki city,Kuusisaarentie,00340,60.18456, 24.8576465
+Finland,Helsinki city,Tapanilankaari,00730,60.2692722, 25.0261781
+Finland,Helsinki city,Holmanmoisionpolku,00840,60.1750555, 25.0588281
+Finland,Helsinki city,Isosaarentie,00840,60.1780868, 25.0491377
+Finland,Helsinki city,Isonniitynkatu,00610,60.2028834, 24.9501871
+Finland,Helsinki city,Kauriintie,00740,60.2733101, 24.9908482
+Finland,Helsinki city,Jousimiehentie,00740,60.2743391, 24.9892263
+Finland,Helsinki city,Reiherintie,00840,60.17138730000001, 25.0409161
+Finland,Helsinki city,Vainiopolku,00700,60.25705900000001, 25.0011648
+Finland,Helsinki city,Latokartanonkaari,00790,60.2339691, 25.0311974
+Finland,Helsinki city,Agronominraitti,00790,60.2335583, 25.0432424
+Finland,Helsinki city,Kaanaankatu,00560,60.2116359, 24.9797128
+Finland,Helsinki city,Tilketori,00700,60.249336, 25.0036764
+Finland,Helsinki city,Pekankatu,00700,60.25162799999999, 25.0148192
+Finland,Helsinki city,Liuskekuja,00710,60.2363069, 25.019861
+Finland,Helsinki city,Hiekkakiventie,00710,60.2396079, 25.0187515
+Finland,Helsinki city,Helluntairaitti,00730,60.26365449999999, 25.037623
+Finland,Helsinki city,Tasankotie,00730,60.26326779999999, 25.038336
+Finland,Helsinki city,Sointutie,00730,60.2635416, 25.0402709
+Finland,Helsinki city,Aamuruskonkuja,00750,60.284519, 25.0275206
+Finland,Helsinki city,Aksiisipolku,00750,60.2742302, 25.0335691
+Finland,Helsinki city,Maatullinaukio,00750,60.27497510000001, 25.0339626
+Finland,Helsinki city,Ajurinaukio,00750,60.27452280000001, 25.0341069
+Finland,Helsinki city,Maatullinkuja,00750,60.27556420000001, 25.0273957
+Finland,Helsinki city,Palovartijantie,00750,60.2760428, 25.0321741
+Finland,Helsinki city,Parmaajantie,00750,60.27460740000001, 25.0203719
+Finland,Helsinki city,Posliinipiha,00560,60.2107421, 24.9808629
+Finland,Helsinki city,Posliinikatu,00560,60.21091310000001, 24.9802901
+Finland,Helsinki city,Laivastokatu,00160,60.1684909, 24.9685592
+Finland,Helsinki city,Merkuriuksentie,00750,60.2808758, 25.0250326
+Finland,Helsinki city,Vuosaarentie,00980,60.2096026, 25.1426278
+Finland,Helsinki city,Kottaraistie,00730,60.2644863, 25.004016
+Finland,Helsinki city,Haastemiehentie,00690,60.2560563, 24.9499065
+Finland,Helsinki city,Kuusmiehentie,00670,60.25574579999999, 24.9270957
+Finland,Helsinki city,Keltakanelinaukio,00990,60.20948740000001, 25.1504886
+Finland,Helsinki city,Iiluodontie,00990,60.20467410000001, 25.1457768
+Finland,Helsinki city,Kaivonkatsojantie,00980,60.2045666, 25.1360571
+Finland,Helsinki city,Pohjavedenkuja,00980,60.20519960000001, 25.138672
+Finland,Helsinki city,Pohjavedenkatu,00980,60.205603, 25.1377047
+Finland,Helsinki city,Pohjoisranta,00170,60.172551, 24.960735
+Finland,Helsinki city,Katajanokanranta,00160,60.16644170000001, 24.9757214
+Finland,Helsinki city,Vedenottamontie,00980,60.20358219999999, 25.1391896
+Finland,Helsinki city,Mustankivenkatu,00980,60.20618229999999, 25.1437383
+Finland,Helsinki city,Hiekkalaiturintie,00980,60.20165069999999, 25.1440829
+Finland,Helsinki city,Kalkkihiekantie,00980,60.2008997, 25.1419631
+Finland,Helsinki city,Hiekkalaiturinaukio,00980,60.20165069999999, 25.1440829
+Finland,Helsinki city,Hiekkajaalanranta,00980,60.1998969, 25.143449
+Finland,Helsinki city,Merenkulkijankuja,00980,60.21174589999999, 25.1778692
+Finland,Helsinki city,Pohjavedenportti,00980,60.206002, 25.1375146
+Finland,Helsinki city,Tyynylaavantie,00980,60.20737690000001, 25.1419412
+Finland,Helsinki city,Tyynylaavankuja,00980,60.2076195, 25.1382327
+Finland,Helsinki city,Ulappasilta,00980,60.207213, 25.1406789
+Finland,Helsinki city,Mosaiikkitori,00980,60.20881190000001, 25.1432598
+Finland,Helsinki city,Kahvikuja,00990,60.2064934, 25.14575
+Finland,Helsinki city,Maustetehtaankatu,00990,60.2070216, 25.1531167
+Finland,Helsinki city,Vaniljakuja,00990,60.20634810000001, 25.1548362
+Finland,Helsinki city,Muskottikuja,00990,60.2053489, 25.155209
+Finland,Helsinki city,Viikinkaari,00790,60.22693529999999, 25.0134612
+Finland,Helsinki city,Tilanhoitajankaari,00790,60.2286228, 25.0282073
+Finland,Helsinki city,Laivuri Petterin kuja,00790,60.23035050000001, 25.0324277
+Finland,Helsinki city,Maakaari,00790,60.2297074, 25.0262458
+Finland,Helsinki city,Seunalankuja,00730,60.2629019, 25.0284302
+Finland,Helsinki city,Sompiontori,00730,60.26372010000001, 25.0286912
+Finland,Helsinki city,Seurasaarentie,00250,60.1831024, 24.8860495
+Finland,Helsinki city,Lintulahdenkuja,00530,60.182907, 24.9613016
+Finland,Helsinki city,Karavaanikuja,00980,60.2065904, 25.1190673
+Finland,Helsinki city,Ratsastie,00280,60.1974347, 24.9068409
+Finland,Helsinki city,Radiokatu,00240,60.2029793, 24.9197128
+Finland,Helsinki city,Maistraatinkatu,00240,60.19899119999999, 24.9224861
+Finland,Helsinki city,Meilahdentie,00250,60.1916632, 24.8892934
+Finland,Helsinki city,Paciuksenkaari,00270,60.19626659999999, 24.8957407
+Finland,Helsinki city,Laivapojankatu,00180,60.1613096, 24.9208293
+Finland,Helsinki city,Hakalantie,00790,60.22305049999999, 25.0152225
+Finland,Helsinki city,Steniuksentie,00320,60.21260179999999, 24.8961981
+Finland,Helsinki city,Pasilanraitio,00240,60.20014639999999, 24.925742
+Finland,Helsinki city,Leanportti,00240,60.20241599999999, 24.9241575
+Finland,Helsinki city,Pasilankatu,00240,60.19901489999999, 24.927845
+Finland,Helsinki city,Porkkalankatu,00180,60.1643683, 24.9126517
+Finland,Helsinki city,Mikonkatu,00100,60.1703226, 24.9452959
+Finland,Helsinki city,Mariankatu,00170,60.1709524, 24.9566576
+Finland,Helsinki city,Pohjoisesplanadi,00170,60.16794419999999, 24.9551948
+Finland,Helsinki city,Sibeliuksenkatu,00260,60.18166559999999, 24.9201558
+Finland,Helsinki city,Maurinkatu,00170,60.1746642, 24.9597121
+Finland,Helsinki city,Unioninkatu,00170,60.1714885, 24.9507282
+Finland,Helsinki city,Siltavuorenranta,00170,60.1764516, 24.955383
+Finland,Helsinki city,Siltavuorenpenger,00170,60.17510100000001, 24.9529584
+Finland,Helsinki city,Mannerheiminaukio,00100,60.17167249999999, 24.9373323
+Finland,Helsinki city,Elielinaukio,00100,60.1717574, 24.9400357
+Finland,Helsinki city,Asema-aukio,00100,60.1704707, 24.9397856
+Finland,Helsinki city,Fabianinkatu,00170,60.16790760000001, 24.9494677
+Finland,Helsinki city,Postikatu,00100,60.1709265, 24.9382102
+Finland,Helsinki city,Rautatientori,00100,60.1710558, 24.9426841
+Finland,Helsinki city,Kaisaniemenranta,00100,60.17616239999999, 24.9456513
+Finland,Helsinki city,Erottajankatu,00130,60.16552369999999, 24.9439931
+Finland,Helsinki city,Kasarmitori,00130,60.1652666, 24.9485571
+Finland,Helsinki city,Fredrikinkatu,00100,60.16828460000001, 24.9314415
+Finland,Helsinki city,Annankatu,00100,60.1669321, 24.9368302
+Finland,Helsinki city,Kalevankatu,00180,60.1642528, 24.929199
+Finland,Helsinki city,Urho Kekkosen katu,00100,60.1688146, 24.9334327
+Finland,Helsinki city,Salomonkatu,00100,60.1695399, 24.932062
+Finland,Helsinki city,Malminrinne,00180,60.16736530000001, 24.9310865
+Finland,Helsinki city,Malminkatu,00100,60.16766070000001, 24.9291125
+Finland,Helsinki city,Lapinrinne,00180,60.16636639999999, 24.9269125
+Finland,Helsinki city,Kuusmiehenkaari,00690,60.2564712, 24.9457638
+Finland,Helsinki city,Lastenkodinkatu,00180,60.1658869, 24.9250954
+Finland,Helsinki city,Mechelininaukio,00180,60.16643810000001, 24.9209412
+Finland,Helsinki city,Runeberginkatu,00100,60.17159969999999, 24.9241898
+Finland,Helsinki city,Arkadiankatu,00100,60.17118480000001, 24.9261406
+Finland,Helsinki city,Olavinkatu,00100,60.17064199999999, 24.9333719
+Finland,Helsinki city,Jaakonkatu,00100,60.16998069999999, 24.9308422
+Finland,Helsinki city,Hietalahden Laituri,00180,60.1603332, 24.9288134
+Finland,Helsinki city,Fallintori,00690,60.2701691, 24.9398866
+Finland,Helsinki city,Iso Roobertinkatu,00120,60.1626834, 24.9397988
+Finland,Helsinki city,Telakkakatu,00150,60.15787479999999, 24.9332654
+Finland,Helsinki city,Tehtaankatu,00150,60.1579043, 24.9380744
+Finland,Helsinki city,Hornintie,00150,60.15745949999999, 24.9378771
+Finland,Helsinki city,Merisatamanranta,00140,60.1549928, 24.9480639
+Finland,Helsinki city,Laivasillankatu,00140,60.16236660000001, 24.9556204
+Finland,Helsinki city,Katariina Saksilaisen katu,00560,60.2167485, 24.9847957
+Finland,Helsinki city,Pornaistenniemenpolku,00560,60.2162082, 24.9853525
+Finland,Helsinki city,Norkkokuja,00790,60.22634499999999, 25.027927
+Finland,Helsinki city,Nuppukuja,00790,60.22646049999999, 25.0303669
+Finland,Helsinki city,Versokuja,00790,60.2262306, 25.0326078
+Finland,Helsinki city,Laivastokuja,00160,60.1671041, 24.9710326
+Finland,Helsinki city,Kanavakatu,00160,60.16648250000001, 24.9635242
+Finland,Helsinki city,Kanavaranta,00160,60.16725989999999, 24.9594626
+Finland,Helsinki city,Kruunuvuorenkatu,00160,60.16657719999999, 24.9653929
+Finland,Helsinki city,Kauppiaankatu,00160,60.167078, 24.9656673
+Finland,Helsinki city,Pasteurinkatu,00790,60.2256745, 25.0128272
+Finland,Helsinki city,Alempi Talonpojantie,00790,60.2260033, 25.0232305
+Finland,Helsinki city,Maakaarenkuja,00790,60.2311935, 25.0251683
+Finland,Helsinki city,Lautamies Jopin katu,00790,60.2319695, 25.0321098
+Finland,Helsinki city,Leskirouva Freytagin kuja,00790,60.2310714, 25.0320593
+Finland,Helsinki city,Pikku Satamakatu,00160,60.16567259999999, 24.9659159
+Finland,Helsinki city,Iso Puistotie,00140,60.157143, 24.9571018
+Finland,Helsinki city,Laivuri Petterin katu,00790,60.2305648, 25.0308945
+Finland,Helsinki city,Lautamies Jopin kuja,00790,60.2320867, 25.0331325
+Finland,Helsinki city,Huhmarekuja,00790,60.2346765, 25.0362692
+Finland,Helsinki city,Vilhonvuorenkatu,00500,60.1872044, 24.9654205
+Finland,Helsinki city,Kaasutehtaankatu,00540,60.1856823, 24.9762695
+Finland,Helsinki city,Haapaniemenkatu,00530,60.1805072, 24.9598517
+Finland,Helsinki city,Kulmavuorenkatu,00500,60.18821929999999, 24.9650253
+Finland,Helsinki city,Somerikkotie,00770,60.2585668, 25.0835385
+Finland,Helsinki city,Siltasaarenkatu,00530,60.1801775, 24.9498332
+Finland,Helsinki city,Porthaninrinne,00530,60.1807864, 24.9485703
+Finland,Helsinki city,Fleminginkatu,00500,60.1874449, 24.9531249
+Finland,Helsinki city,Helsinginkatu,00500,60.1873958, 24.957398
+Finland,Helsinki city,Harjutori,00500,60.186957, 24.9582397
+Finland,Helsinki city,Harjutorinkatu,00500,60.1866336, 24.9572858
+Finland,Helsinki city,Hakaniemenkatu,00530,60.17893590000001, 24.955195
+Finland,Helsinki city,Hakaniemen torikatu,00530,60.1796576, 24.952231
+Finland,Helsinki city,Saariniemenkatu,00530,60.178268, 24.9468812
+Finland,Helsinki city,John Stenbergin ranta,00530,60.177697, 24.9518472
+Finland,Helsinki city,Ensi linja,00530,60.18300939999999, 24.9416742
+Finland,Helsinki city,Pensaskuja,00750,60.27758590000001, 25.0389654
+Finland,Helsinki city,Viherniemenkatu,00530,60.17898829999999, 24.9530611
+Finland,Helsinki city,Vaasankatu,00500,60.1883654, 24.9570827
+Finland,Helsinki city,Porvoonkatu,00510,60.1906594, 24.9462282
+Finland,Helsinki city,Sturenkatu,00510,60.19014699999999, 24.9486045
+Finland,Helsinki city,Tivolitie,00510,60.18985319999999, 24.9395675
+Finland,Helsinki city,Kinaporinkatu,00500,60.18889739999999, 24.9619015
+Finland,Helsinki city,Karjalankatu,00520,60.1928885, 24.938693
+Finland,Helsinki city,Viipurinkatu,00510,60.1910553, 24.9445018
+Finland,Helsinki city,Kotkankatu,00510,60.1919402, 24.9428172
+Finland,Helsinki city,Vuorineuvoksentie,00570,60.18521699999999, 24.9991881
+Finland,Helsinki city,Hangonkatu,00510,60.191531, 24.9402759
+Finland,Helsinki city,Savonkatu,00520,60.1942355, 24.9356545
+Finland,Helsinki city,Museokatu,00100,60.1750052, 24.9258071
+Finland,Helsinki city,Hietaniemenkatu,00100,60.1711883, 24.916155
+Finland,Helsinki city,Tilkankatu,00300,60.20044229999999, 24.8963168
+Finland,Helsinki city,Tupasaarentie,00570,60.18855110000001, 25.0139798
+Finland,Helsinki city,Caloniuksenkatu,00100,60.1745121, 24.9207604
+Finland,Helsinki city,Hietakannaksentie,00100,60.17366929999999, 24.9148017
+Finland,Helsinki city,Hiekkarannantie,00100,60.17284890000001, 24.9062474
+Finland,Helsinki city,Sandelsinkatu,00260,60.1788177, 24.922893
+Finland,Helsinki city,Kirvesmiehenkatu,00880,60.19502319999999, 25.0407858
+Finland,Helsinki city,Muuntajankatu,00880,60.20495219999999, 25.0486409
+Finland,Helsinki city,Ruusulankatu,00260,60.181161, 24.9257406
+Finland,Helsinki city,Rajasaarentie,00250,60.18326090000001, 24.9132449
+Finland,Helsinki city,Merikannontie,00250,60.1830471, 24.9104666
+Finland,Helsinki city,Eino Leinon katu,00250,60.1837269, 24.92118
+Finland,Helsinki city,Humalistonkatu,00250,60.18434779999999, 24.9191952
+Finland,Helsinki city,Linnankoskenkatu,00250,60.1851923, 24.9150581
+Finland,Helsinki city,Kettutie,00800,60.2058812, 25.036695
+Finland,Helsinki city,Messeniuksenkatu,00250,60.18806799999999, 24.9153177
+Finland,Helsinki city,Paavo Nurmen tie,00250,60.1846286, 24.9266223
+Finland,Helsinki city,Pohjoinen Stadiontie,00250,60.18947199999999, 24.9255213
+Finland,Helsinki city,Toivonkatu,00250,60.1841752, 24.9247197
+Finland,Helsinki city,Kallioportaankatu,00250,60.19504259999999, 24.8928934
+Finland,Helsinki city,Rialtonkuja,00580,60.19037299999999, 24.9662205
+Finland,Helsinki city,Vellamonkatu,00550,60.1962206, 24.965764
+Finland,Helsinki city,Saarenkatu,00550,60.1962206, 24.965764
+Finland,Helsinki city,Hermannin Rantatie,00550,60.2002523, 24.9659116
+Finland,Helsinki city,Ristikkokatu,00580,60.19277080000001, 24.9669476
+Finland,Helsinki city,Tilkankuja,00300,60.1977996, 24.8974334
+Finland,Helsinki city,Taavetti Laitisen katu,00300,60.1983614, 24.8963721
+Finland,Helsinki city,Taavetinkuja,00300,60.1988497, 24.8957628
+Finland,Helsinki city,Lasarettikuja,00300,60.1989147, 24.8985538
+Finland,Helsinki city,Koroistentie,00280,60.200906, 24.9023121
+Finland,Helsinki city,Professorintie,00330,60.20134160000001, 24.8753296
+Finland,Helsinki city,Arabiankatu,00560,60.20808359999999, 24.9782306
+Finland,Helsinki city,Tilkantori,00300,60.2026775, 24.8930555
+Finland,Helsinki city,Ratamestarinkatu,00520,60.1997721, 24.9397494
+Finland,Helsinki city,Pakkamestarinkatu,00520,60.1983989, 24.9441718
+Finland,Helsinki city,Resiinakuja,00520,60.1981311, 24.9418518
+Finland,Helsinki city,Topparikuja,00520,60.20003630000001, 24.9422789
+Finland,Helsinki city,Ratavartijankatu,00520,60.1975277, 24.9367839
+Finland,Helsinki city,Junailijanaukio,00520,60.19782979999999, 24.9380982
+Finland,Helsinki city,Junailijankuja,00520,60.1991568, 24.9372342
+Finland,Helsinki city,Opastinsilta,00520,60.19936209999999, 24.9390148
+Finland,Helsinki city,Kirjurinkatu,00520,60.19929559999999, 24.9384844
+Finland,Helsinki city,Radanrakentajantie,00520,60.20037319999999, 24.9419885
+Finland,Helsinki city,Veturitori,00520,60.1995706, 24.9358549
+Finland,Helsinki city,Kellosilta,00520,60.2008192, 24.938124
+Finland,Helsinki city,Asemamiehenkatu,00520,60.200863, 24.9376603
+Finland,Helsinki city,Messuaukio,00520,60.2020984, 24.9361432
+Finland,Helsinki city,Hannanportti,00240,60.2028804, 24.9191658
+Finland,Helsinki city,Paulankatu,00240,60.1951037, 24.928964
+Finland,Helsinki city,Palkkatilankatu,00240,60.1957943, 24.9241839
+Finland,Helsinki city,Martanpenger,00240,60.19500730000001, 24.9234749
+Finland,Helsinki city,Palkkatilanportti,00240,60.1960498, 24.9285702
+Finland,Helsinki city,Pasilan puistotie,00240,60.1986459, 24.9249498
+Finland,Helsinki city,Esterinpolku,00240,60.1971164, 24.9260658
+Finland,Helsinki city,Esterinportti,00240,60.19727229999999, 24.9279214
+Finland,Helsinki city,Mirjaminkatu,00240,60.19816489999999, 24.9235434
+Finland,Helsinki city,Juuditinkatu,00240,60.1979492, 24.9243186
+Finland,Helsinki city,Fredriksberginkatu,00240,60.19794939999999, 24.9268844
+Finland,Helsinki city,Maistraatinportti,00240,60.1987229, 24.926505
+Finland,Helsinki city,Kronqvistinkuja,00240,60.19939789999999, 24.9261763
+Finland,Helsinki city,Winqvistinkatu,00240,60.1991692, 24.9238963
+Finland,Helsinki city,Kyllikinportti,00240,60.2002736, 24.9265199
+Finland,Helsinki city,Kronqvistinkatu,00240,60.19947020000001, 24.926658
+Finland,Helsinki city,Roomankatu,00560,60.2014735, 24.9687925
+Finland,Helsinki city,Toukolankuja,00560,60.2046801, 24.9731755
+Finland,Helsinki city,Jan-Magnus Janssonin aukio,00560,60.2015121, 24.9664335
+Finland,Helsinki city,Pariisinkatu,00560,60.2017682, 24.9702057
+Finland,Helsinki city,Pariisinkuja,00560,60.20198929999999, 24.9706496
+Finland,Helsinki city,Kotisaarenkatu,00560,60.2031184, 24.9698846
+Finland,Helsinki city,Kokkosaarenkatu,00560,60.20543999999999, 24.9733645
+Finland,Helsinki city,Arabianpolku,00560,60.20576729999999, 24.9756021
+Finland,Helsinki city,Toini Muonan katu,00560,60.2069197, 24.9786088
+Finland,Helsinki city,Gunnel Nymanin katu,00560,60.2075566, 24.9794507
+Finland,Helsinki city,Kaj Franckin katu,00560,60.2082665, 24.9803123
+Finland,Helsinki city,Kaj Franckin aukio,00560,60.2084176, 24.9789341
+Finland,Helsinki city,Birger Kaipiaisen katu,00560,60.2092408, 24.9799285
+Finland,Helsinki city,Muotoilijankatu,00560,60.21022869999999, 24.9784764
+Finland,Helsinki city,Muotoilijanpiha,00560,60.20984730000001, 24.9808526
+Finland,Helsinki city,Rahakamarinkatu,00240,60.2016381, 24.9196393
+Finland,Helsinki city,Rahakamarinportti,00240,60.2018396, 24.920321
+Finland,Helsinki city,Mustikkamaantie,00570,60.1820203, 24.9928488
+Finland,Helsinki city,Arabianaukio,00560,60.20808359999999, 24.9782306
+Finland,Helsinki city,Santakatu,00180,60.1627207, 24.9179818
+Finland,Helsinki city,Ruoholahdentori,00180,60.16528150000001, 24.9264093
+Finland,Helsinki city,Kasuunikuja,00180,60.16273409999999, 24.9095741
+Finland,Helsinki city,Kellosaarenkatu,00180,60.1623476, 24.9104461
+Finland,Helsinki city,Loistokuja,00180,60.1627847, 24.9110272
+Finland,Helsinki city,Kellosaarenranta,00180,60.16153360000001, 24.9099474
+Finland,Helsinki city,Jaalaranta,00180,60.1608984, 24.9128921
+Finland,Helsinki city,Piritanaukio,00150,60.1559924, 24.9327411
+Finland,Helsinki city,Eiranranta,00150,60.1549171, 24.9360479
+Finland,Helsinki city,Laivakatu,00150,60.15371619999999, 24.9277698
+Finland,Helsinki city,Saukonkuja,00220,60.1582842, 24.9075099
+Finland,Helsinki city,Pietari Kalmin katu,00560,60.2044465, 24.9644991
+Finland,Helsinki city,Kumpulanportti,00520,60.20230900000001, 24.9514976
+Finland,Helsinki city,Sampsantie,00610,60.21402939999999, 24.9477774
+Finland,Helsinki city,Tursontie,00610,60.21102370000001, 24.9426829
+Finland,Helsinki city,Taivaskalliontie,00600,60.2198457, 24.9583254
+Finland,Helsinki city,Kullervonkatu,00610,60.217253, 24.9526355
+Finland,Helsinki city,Pohjolankatu,00610,60.2152572, 24.9491914
+Finland,Helsinki city,Osmonpolku,00610,60.21466839999999, 24.9438822
+Finland,Helsinki city,Metsolantie,00610,60.21492019999999, 24.9496266
+Finland,Helsinki city,Kunnalliskodintie,00600,60.21732120000001, 24.9644675
+Finland,Helsinki city,Nastolantie,00600,60.2209438, 24.9678604
+Finland,Helsinki city,Kaanaanpiha,00560,60.21195479999999, 24.9811144
+Finland,Helsinki city,Haagan tori,00320,60.21198810000001, 24.8986311
+Finland,Helsinki city,Vanha Turun maantie,00320,60.2093066, 24.8927857
+Finland,Helsinki city,Huovitie,00400,60.22192039999999, 24.9047174
+Finland,Helsinki city,Haapalahdenkatu,00300,60.2057903, 24.8897597
+Finland,Helsinki city,Kalastajatorpantie,00330,60.1925462, 24.8730993
+Finland,Helsinki city,Kartanontie,00330,60.1942026, 24.8803498
+Finland,Helsinki city,Laajalahden aukio,00330,60.19809100000001, 24.8770115
+Finland,Helsinki city,Professorinaukio,00330,60.20134160000001, 24.8753296
+Finland,Helsinki city,Vaunukuja,01200,60.28184460000001, 25.1066781
+Finland,Helsinki city,Pikkuniementie,06950,60.18971730000001, 24.8768738
