@@ -25,7 +25,8 @@ streetbootApp.controller('VehicleController', ['$scope', '$http', 'VehicleServic
             };
             $scope.nodata = true;
           }
-          drawGarageChart(data)
+          drawGarageChart(data);
+          initMap([]);
         }
     );
   };
