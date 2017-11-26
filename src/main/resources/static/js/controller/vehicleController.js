@@ -8,7 +8,7 @@ streetbootApp.controller('VehicleController', ['$scope', '$http', 'VehicleServic
   });
 
   function showVehicles() {
-    VehicleService.getVehicles().then(function (data) {
+      VehicleService.getVehicles().then(function (data) {
       $scope.vehicles = data;
     });
   }

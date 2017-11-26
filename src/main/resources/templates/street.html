@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <head th:replace="fragments/head :: head"></head>
+    <script th:src="@{/js/controller/streetController.js}"></script>
+    <script th:src="@{/js/services/streetService.js}"></script>
+</head>
+<body ng-cloak="" ng-app="streetbootModule" ng-controller="StreetController">
+
+<div class="container">
+    <div id="map" style="height:800px">
+
+    </div>
+</div>
+
+<script async="async" defer="defer"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMvFcVllvaVrvH9pGW9AXDxYpLX2brFQ0&amp;callback=dontInitMapYet" type="text/javascript"></script>
+</body>
+</html>

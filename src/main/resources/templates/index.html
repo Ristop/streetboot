@@ -1,9 +1,13 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <head th:replace="fragments/head :: head"></head>
+    <head th:replace="fragments/head :: head">
+        <script async="async" defer="defer"
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCj8YghHM7NLpC992YIVAaZWQVheOGTuXo&amp;callback=initMap" type="text/javascript"></script>
+    </head>
     <script th:src="@{/js/controller/vehicleController.js}"></script>
     <script th:src="@{/js/services/vehicleService.js}"></script>
+    <script th:src="@{/js/services/streetService.js}"></script>
 </head>
 <body ng-cloak="" ng-app="streetbootModule" ng-controller="VehicleController">
 
