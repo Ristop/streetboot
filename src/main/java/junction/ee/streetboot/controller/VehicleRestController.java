@@ -12,10 +12,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import junction.ee.streetboot.model.garage.Garage;
+import junction.ee.streetboot.model.garage.GarageBySEHIID;
+import junction.ee.streetboot.model.garage.GarageByVehicle;
 import junction.ee.streetboot.model.location.Location;
 import junction.ee.streetboot.model.refuel.Refuel;
 import junction.ee.streetboot.model.vehicle.Vehicle;
 import junction.ee.streetboot.model.wash.Wash;
+import junction.ee.streetboot.service.GarageBySEHIIDService;
+import junction.ee.streetboot.service.GarageByVehicleService;
+import junction.ee.streetboot.service.GarageService;
 import junction.ee.streetboot.service.LocationService;
 import junction.ee.streetboot.service.RefuelService;
 import junction.ee.streetboot.service.VehicleService;
@@ -28,13 +34,19 @@ public class VehicleRestController {
   private final WashService washService;
   private final RefuelService refuelService;
   private final LocationService locationService;
+  private final GarageService garageService;
+  private final GarageByVehicleService garageByVehicleService;
+  private final GarageBySEHIIDService garageBySEHIIDService;
 
   @Autowired
-  public VehicleRestController(VehicleService vehicleService, WashService washService, RefuelService refuelService, LocationService locationService) {
+  public VehicleRestController(VehicleService vehicleService, WashService washService, RefuelService refuelService, LocationService locationService, GarageService garageService, GarageByVehicleService garageByVehicleService, GarageBySEHIIDService garageBySEHIIDService) {
     this.vehicleService = vehicleService;
     this.washService = washService;
     this.refuelService = refuelService;
     this.locationService = locationService;
+    this.garageService = garageService;
+    this.garageByVehicleService = garageByVehicleService;
+    this.garageBySEHIIDService = garageBySEHIIDService;
   }
 
   @GetMapping("/api/vehicles")
@@ -72,11 +84,29 @@ public class VehicleRestController {
   @GetMapping("/api/vehicles/locationbydates")
   public ResponseEntity<List<Location>> getVehicleLocationByStartAndEndDate(
       @RequestParam("name") String name, @RequestParam("startDate") Long startDate, @RequestParam("endDate") Long endDate) {
-    System.out.println(startDate + " " + endDate);
     List<Location> vehileRefuelEventsByFuelCardNum = locationService.getVehicleLocation(
         name, 10000, endDate, startDate);
 
     return ResponseEntity.ok(new ArrayList<>(vehileRefuelEventsByFuelCardNum));
+  }
+
+  @GetMapping("/api/vehicles/garage")
+  public ResponseEntity<List<Garage>> getVehicleGarage(@RequestParam("name") String name) {
+    List<Garage> vehileGarageByName = garageService.getVehileGarageByName(name);
+
+    return ResponseEntity.ok(new ArrayList<>(vehileGarageByName));
+  }
+
+  @GetMapping("/api/vehicles/garageByVehicle")
+  public ResponseEntity<List<GarageByVehicle>> getVehicleGarageDates(@RequestParam("name") String name) {
+    List<GarageByVehicle> vehicleGarage = garageByVehicleService.getVehicleGarage(name);
+    return ResponseEntity.ok(new ArrayList<>(vehicleGarage));
+  }
+
+  @GetMapping("/api/vehicles/garageBySEHIID")
+  public ResponseEntity<List<GarageBySEHIID>> getGarageBySEHIID(@RequestParam("sehiId") String sehiId) {
+    List<GarageBySEHIID> garageBySEHIIDS = garageBySEHIIDService.getVehicleGarageBySehiId(sehiId);
+    return ResponseEntity.ok(new ArrayList<>(garageBySEHIIDS));
   }
 
 }

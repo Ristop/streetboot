@@ -55,5 +55,37 @@ streetbootApp.service('VehicleService', function ($http) {
     });
   };
 
+  this.getVehiclesGarageEvents = function (name) {
+    return $http.get("/api/vehicles/garage", {
+          params: {
+            name: name
+          }
+        }
+    ).then(function (response) {
+      return response.data;
+    });
+  };
+
+  this.getVehiclesGarageByVehicle = function (name) {
+    return $http.get("/api/vehicles/garageByVehicle", {
+          params: {
+            name: name
+          }
+        }
+    ).then(function (response) {
+      return response.data;
+    });
+  };
+
+  this.getVehiclesGarageBySEHIID = function (sehiid) {
+    return $http.get("/api/vehicles/garageBySEHIID", {
+          params: {
+            sehiid: sehiid
+          }
+        }
+    ).then(function (response) {
+      return response.data;
+    });
+  };
 
 });

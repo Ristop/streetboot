@@ -13,6 +13,23 @@ streetbootApp.controller('VehicleController', ['$scope', '$http', 'VehicleServic
     });
   }
 
+  $scope.getVehicleGarageEvents = function (name, description, fuelCardNum) {
+    VehicleService.getVehiclesGarageEvents(name).then(function (data) {
+          if (data.length > 0) {
+            $scope.nodata = false;
+          }else {
+            $scope.nodataVeh = {
+              name: name,
+              description: description,
+              message: "No garage info found for: "
+            };
+            $scope.nodata = true;
+          }
+          drawGarageChart(data)
+        }
+    );
+  };
+
   $scope.getVehicleEvents = function (name, description, fuelCardNum) {
     if (fuelCardNum === null) {
       return;
@@ -27,15 +44,15 @@ streetbootApp.controller('VehicleController', ['$scope', '$http', 'VehicleServic
         washData = data;
         if (fuelData.length > 0 || washData.length > 0) {
           $scope.nodata = false;
-
-          drawChart(fuelData, washData);
         } else {
           $scope.nodataVeh = {
             name: name,
-            description: description
+            description: description,
+            message: "No vehicle info found for: "
           };
           $scope.nodata = true;
         }
+        drawVehicleChart(fuelData, washData);
       });
     });
 
@@ -45,18 +62,21 @@ streetbootApp.controller('VehicleController', ['$scope', '$http', 'VehicleServic
       })
     } else {
       VehicleService.getVehiclesLocation(name).then(function (data) {
-        if (data.length > 0) {
-          initMap(data);
-        }
+        initMap(data);
       })
     }
   };
 
-}]);
+}
+])
+;
 
 function initMap(cordinateData) {
+
+  console.log(cordinateData);
+
   if (cordinateData === undefined) {
-    return;
+    cordinateData = [];
   }
 
   var corData = [];
@@ -123,7 +143,7 @@ streetbootApp.filter('searchFor', function () {
 
 });
 
-function drawChart(fuelData, washData) {
+function drawVehicleChart(fuelData, washData) {
 
   var fuelVolumes = [];
   var km = [];
@@ -222,6 +242,55 @@ function drawChart(fuelData, washData) {
       name: 'Wash',
       type: 'spline',
       data: wash
+    }]
+  });
+}
+
+function drawGarageChart(garageData) {
+
+  var billedData = [];
+
+  for (var j = 0; j < garageData.length; j++) {
+    var date2 = new Date(garageData[j]["SERVD"]);
+    billedData.push([Date.UTC(date2.getUTCFullYear(), date2.getUTCMonth() + 1, date2.getUTCDate()), garageData[j]["TSUM"]]);
+  }
+
+  Highcharts.chart('chart-container', {
+    chart: {
+      type: 'column'
+    },
+    title: {
+      text: ''
+    },
+    exporting: {enabled: false},
+    xAxis: {
+      type: 'datetime',
+      dateTimeLabelFormats: { // don't display the dummy year
+        month: '%e. %b',
+        year: '%b'
+      }
+    },
+    yAxis: {
+      labels: {
+        format: '{value} €'
+      },
+      min: 0,
+      title: {
+        text: ''
+      }
+    },
+    legend: {
+      enabled: false
+    },
+    tooltip: {
+      pointFormat: '<b>{point.y:.1f} €</b>'
+    },
+    series: [{
+      name: 'Amount',
+      data: billedData,
+      tooltip: {
+        valueSuffix: ' €'
+      }
     }]
   });
 }

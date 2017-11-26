@@ -17,13 +17,25 @@
   font-size: 12px;
   overflow: scroll;
 }
-#vehicles ul li:hover{
+
+#vehicles ul li:hover {
   background-color: #333;
   color: white;
-  cursor: pointer;
 }
 
-#alert-box{
+.vehicle-btn:hover {
+  cursor: pointer;
+  font-weight: bold;
+  color: #FF5722;
+}
+
+.garage-btn:hover {
+  cursor: pointer;
+  font-weight: bold;
+  color: #FF5722;
+}
+
+#alert-box {
   top: 60px;
   height: 20px;
   background-color: #FF5722;
@@ -32,12 +44,12 @@
   width: 100%;
 }
 
-#time-picker{
+#time-picker {
   margin-top: 20px;
 }
 
-#map{
+#map {
   margin-top: 20px;
   width: 100%;
-  height:260px;
+  height: 260px;
 }

@@ -10,7 +10,7 @@
 <header th:include="fragments/header :: header"></header>
 
 <div class="container-fluid" id="alert-box" ng-if="nodata">
-    No info for {{nodataVeh.description}}
+    {{nodataVeh.message}} {{nodataVeh.description}}
 </div>
 
 <div class="container" id="vehicles-data-container">
@@ -19,11 +19,12 @@
     </div>
     <div id="vehicles">
         <ul class="list-group">
-            <li class="list-group-item" ng-repeat="vehicle in vehicles | searchFor:searchString"
-                ng-click="getVehicleEvents(vehicle.Name, vehicle.Description, vehicle.FuelCardNum)">
+            <li class="list-group-item" ng-repeat="vehicle in vehicles | searchFor:searchString">
                 <span>{{ vehicle.Description }}</span>
                 <br/>
                 <span style="font-weight: bold">{{ vehicle.Name }} </span>| <span style="font-style: italic">{{ vehicle.FuelCardNum }}</span>
+                <br/>
+                <span class="vehicle-btn" ng-click="getVehicleEvents(vehicle.Name, vehicle.Description, vehicle.FuelCardNum)">Vehicle</span> | <span ng-click="getVehicleGarageEvents(vehicle.Name, vehicle.Description, vehicle.FuelCardNum)" class="garage-btn">Garage</span>
             </li>
         </ul>
     </div>
