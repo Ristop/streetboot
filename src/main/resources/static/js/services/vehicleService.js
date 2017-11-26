@@ -42,4 +42,18 @@ streetbootApp.service('VehicleService', function ($http) {
     });
   };
 
+  this.getVehiclesLocationByStartAndEndDate = function (name, startDate, endDate) {
+    return $http.get("/api/vehicles/locationbydates", {
+          params: {
+            name: name,
+            startDate: startDate,
+            endDate: endDate
+          }
+        }
+    ).then(function (response) {
+      return response.data;
+    });
+  };
+
+
 });

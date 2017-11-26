@@ -42,8 +42,8 @@ public class LocationService {
 
     uriBuilder.addParameter("Name", name);
     uriBuilder.addParameter("maxItems", String.valueOf(maxItems));
-    uriBuilder.addParameter("endDate", String.valueOf(endDate)+"000");
-    uriBuilder.addParameter("startDate", String.valueOf(startDate)+"000");
+    uriBuilder.addParameter("endDate", String.valueOf(endDate)+(String.valueOf(endDate).length() == 10 ? "000" : ""));
+    uriBuilder.addParameter("startDate", String.valueOf(startDate)+(String.valueOf(endDate).length() == 10 ? "000" : ""));
 
     try {
       LocationList locationList = restTemplate.postForObject(uriBuilder.toString(), new HashMap<>(), LocationList.class);

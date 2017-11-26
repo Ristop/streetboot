@@ -69,4 +69,14 @@ public class VehicleRestController {
     return ResponseEntity.ok(new ArrayList<>(vehileRefuelEventsByFuelCardNum));
   }
 
+  @GetMapping("/api/vehicles/locationbydates")
+  public ResponseEntity<List<Location>> getVehicleLocationByStartAndEndDate(
+      @RequestParam("name") String name, @RequestParam("startDate") Long startDate, @RequestParam("endDate") Long endDate) {
+    System.out.println(startDate + " " + endDate);
+    List<Location> vehileRefuelEventsByFuelCardNum = locationService.getVehicleLocation(
+        name, 10000, endDate, startDate);
+
+    return ResponseEntity.ok(new ArrayList<>(vehileRefuelEventsByFuelCardNum));
+  }
+
 }

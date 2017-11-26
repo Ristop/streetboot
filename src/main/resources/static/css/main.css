@@ -13,7 +13,7 @@
 }
 
 #vehicles {
-  max-height: 370px;
+  max-height: 400px;
   font-size: 12px;
   overflow: scroll;
 }
@@ -30,6 +30,10 @@
   position: fixed;
   text-align: center;
   width: 100%;
+}
+
+#time-picker{
+  margin-top: 20px;
 }
 
 #map{

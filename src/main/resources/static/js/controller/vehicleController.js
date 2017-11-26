@@ -1,5 +1,4 @@
-var streetbootApp = angular.module("streetbootModule", []);
-
+var streetbootApp = angular.module("streetbootModule", ['moment-picker']);
 
 streetbootApp.controller('VehicleController', ['$scope', '$http', 'VehicleService', function ($scope, $http, VehicleService) {
 
@@ -40,26 +39,35 @@ streetbootApp.controller('VehicleController', ['$scope', '$http', 'VehicleServic
       });
     });
 
-    VehicleService.getVehiclesLocation(name).then(function (data) {
-      initMap(data);
-    })
+    if ($scope.ctrl !== undefined && $scope.ctrl.startDatepicker !== undefined && $scope.ctrl.endDatepicker !== undefined) {
+      VehicleService.getVehiclesLocationByStartAndEndDate(name, new Date($scope.ctrl.startDatepicker).valueOf(), new Date($scope.ctrl.endDatepicker).valueOf()).then(function (data) {
+        initMap(data);
+      })
+    } else {
+      VehicleService.getVehiclesLocation(name).then(function (data) {
+        if (data.length > 0) {
+          initMap(data);
+        }
+      })
+    }
   };
 
 }]);
 
 function initMap(cordinateData) {
+  if (cordinateData === undefined) {
+    return;
+  }
 
-  corData = [];
+  var corData = [];
 
   for (var i = 0; i < cordinateData.length; i++) {
     corData.push({lat: cordinateData[i]["lat"], lng: cordinateData[i]["long"]});
   }
 
-  console.log(corData);
-
   var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 10,
-    center: corData[corData.length / 2],
+    zoom: 11,
+    center: corData[Math.floor(corData.length / 2)],
     mapTypeId: 'terrain'
   });
 
