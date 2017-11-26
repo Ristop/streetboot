@@ -28,14 +28,22 @@
                 <br/>
                 <span style="font-weight: bold">{{ vehicle.Name }} </span>| <span style="font-style: italic">{{ vehicle.FuelCardNum }}</span>
                 <br/>
-                <span class="vehicle-btn" ng-click="getVehicleEvents(vehicle.Name, vehicle.Description, vehicle.FuelCardNum)">Vehicle</span> | <span ng-click="getVehicleGarageEvents(vehicle.Name, vehicle.Description, vehicle.FuelCardNum)" class="garage-btn">Garage</span>
+                <span class="vehicle-btn" ng-click="getVehicleEvents(vehicle.Name, vehicle.Description, vehicle.FuelCardNum)">Vehicle</span> | <span
+                    ng-click="getVehicleGarageEvents(vehicle.Name, vehicle.Description, vehicle.FuelCardNum)" class="garage-btn">Garage</span>
             </li>
         </ul>
     </div>
 </div>
 
-<div class="container" id="time-picker">
-    <div class="col-lg-6">
+<div class="container" style="margin-top: 10px">
+    <span><h4 style="display: inline">{{selected.description}} </h4><span>{{selected.name}}</span></span>
+</div>
+
+<div class="container" id="time-picker" ng-if="mapNotAvailable">
+    <div class="col-lg-3">
+        <h3 style="text-align: left;color:#FF5722;padding-top: 4px;margin: 0">Map data from</h3>
+    </div>
+    <div class="col-lg-4">
         <div class="input-group"
              moment-picker="ctrl.startDatepicker"
              format="YYYY-MM-DD">
@@ -48,7 +56,7 @@
                    ng-model-options="{ updateOn: 'blur' }"/>
         </div>
     </div>
-    <div class="col-lg-6">
+    <div class="col-lg-4">
         <div class="input-group"
              moment-picker="ctrl.endDatepicker"
              format="YYYY-MM-DD">
@@ -60,6 +68,9 @@
                    ng-model="ctrl.endDatepicker"
                    ng-model-options="{ updateOn: 'blur' }"/>
         </div>
+    </div>
+    <div class="col-lg-1">
+        <button style="background-color: #FF5722; color: white" type="button" class="btn">Update</button>
     </div>
 
 </div>

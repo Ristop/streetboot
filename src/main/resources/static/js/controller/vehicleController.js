@@ -5,19 +5,32 @@ streetbootApp.controller('VehicleController', ['$scope', '$http', 'VehicleServic
   angular.element(document).ready(function () {
     showVehicles();
     $scope.nodata = false;
+    $scope.mapAvailable = true;
+    $scope.selected = {
+      name: "",
+      description: "",
+      fuelCardNum: ""
+    }
   });
 
   function showVehicles() {
-      VehicleService.getVehicles().then(function (data) {
+    VehicleService.getVehicles().then(function (data) {
       $scope.vehicles = data;
     });
   }
 
   $scope.getVehicleGarageEvents = function (name, description, fuelCardNum) {
+    $scope.selected = {
+      name: name,
+      description: description,
+      fuelCardNum: fuelCardNum
+    };
+    $scope.mapNotAvailable = false;
+
     VehicleService.getVehiclesGarageEvents(name).then(function (data) {
           if (data.length > 0) {
             $scope.nodata = false;
-          }else {
+          } else {
             $scope.nodataVeh = {
               name: name,
               description: description,
@@ -32,6 +45,11 @@ streetbootApp.controller('VehicleController', ['$scope', '$http', 'VehicleServic
   };
 
   $scope.getVehicleEvents = function (name, description, fuelCardNum) {
+    $scope.selected = {
+      name: name,
+      description: description,
+      fuelCardNum: fuelCardNum
+    };
     if (fuelCardNum === null) {
       return;
     }
@@ -59,10 +77,20 @@ streetbootApp.controller('VehicleController', ['$scope', '$http', 'VehicleServic
 
     if ($scope.ctrl !== undefined && $scope.ctrl.startDatepicker !== undefined && $scope.ctrl.endDatepicker !== undefined) {
       VehicleService.getVehiclesLocationByStartAndEndDate(name, new Date($scope.ctrl.startDatepicker).valueOf(), new Date($scope.ctrl.endDatepicker).valueOf()).then(function (data) {
+        if (data.length > 0) {
+          $scope.mapNotAvailable = true;
+        } else {
+          $scope.mapNotAvailable = false;
+        }
         initMap(data);
       })
     } else {
       VehicleService.getVehiclesLocation(name).then(function (data) {
+        if (data.length > 0) {
+          $scope.mapNotAvailable = true;
+        } else {
+          $scope.mapNotAvailable = false;
+        }
         initMap(data);
       })
     }
@@ -71,6 +99,7 @@ streetbootApp.controller('VehicleController', ['$scope', '$http', 'VehicleServic
 }
 ])
 ;
+
 
 function initMap(cordinateData) {
 
@@ -89,7 +118,8 @@ function initMap(cordinateData) {
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 11,
     center: corData[Math.floor(corData.length / 2)],
-    mapTypeId: 'terrain'
+    mapTypeId: 'terrain',
+    backgroundColor: 'none'
   });
 
   var flightPlanCoordinates = corData;
